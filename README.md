@@ -6,14 +6,14 @@
 ## Contents
 
 - [Class 00](#Introduction)
-- [CSS](#CSS)
+- [Class 01](#Class_01)
 - [Workflows](#Workflows)
 - [LaTeX](#LaTeX)
 - [Schemas](#Schemas)
 - [Services](#Services)
 
 
-## Introduction (Class 00)
+## Introduction
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -22,14 +22,20 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - WebDriver Architecture
 - Selenium Pros and Cons
 - First Selenium Webdriver script
-- WebDriver Commands
+- Basic WebDriver Commands
 
 
 - [bibtex2html](https://github.com/backtracking/bibtex2html) - Command-line tool that converts `BibTeX` files into `HTML`.
 - [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar) - A `ruby` gem that works alongside the `jekyll` static-site generator in order to convert `BibTeX` into `HTML`.
 
 
-## CSS
+## Class_01
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- What is a web element?
+- Locators in Selenium
+
 
 CSS CV templates are based on HTML standards and they are geared towards screen output, but there is also the option to print.
 
