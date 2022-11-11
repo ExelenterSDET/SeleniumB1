@@ -7,7 +7,7 @@
 
 - [Class 00](#Introduction)
 - [Class 01](#Class_01)
-- [Workflows](#Workflows)
+- [Class 02](#Class_02)
 - [LaTeX](#LaTeX)
 - [Schemas](#Schemas)
 - [Services](#Services)
@@ -21,29 +21,24 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - Why we automate? 
 - WebDriver Architecture
 - Selenium Pros and Cons
-- First Selenium Webdriver script
-- Basic WebDriver Commands
-
-
-- [bibtex2html](https://github.com/backtracking/bibtex2html) - Command-line tool that converts `BibTeX` files into `HTML`.
-- [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar) - A `ruby` gem that works alongside the `jekyll` static-site generator in order to convert `BibTeX` into `HTML`.
 
 
 ## Class_01
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
+- First Selenium Webdriver script
+- Basic WebDriver Commands
+
+
+
+## Class_02
+
+WHAT YOU WILL LEARN (What is covered in this section):
 - What is a web element?
 - Locators in Selenium
 
 
-CSS CV templates are based on HTML standards and they are geared towards screen output, but there is also the option to print.
-
-- [Markdown CV](https://github.com/elipapa/markdown-cv) - A simple template to write your CV in a readable `Markdown` file and use CSS to publish or print it through the browser.
-- [Markdown Resume](https://github.com/there4/markdown-resume) - Generate a responsive CSS3 and HTML5 resume with `Markdown`, with optional PDF output through `wkhtmltopdf`.
-
-
-## Workflows
 
 Workflows employ one or more programming and layout languages, toolchains, and schemas, in order to produce multiple outputs from a single data source.
 
