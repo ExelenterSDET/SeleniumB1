@@ -1,11 +1,11 @@
-# Selenium Curriculum 
+# Selenium Curriculum 2022 (v.01)
 
 > Prepared by Said Gaforov for Exelenter students
 
 
 ## Contents
 
-- [Class 00](#Intro)
+- [Class 00](#Introduction to Selenium)
 - [CSS](#CSS)
 - [Workflows](#Workflows)
 - [LaTeX](#LaTeX)
@@ -13,9 +13,17 @@
 - [Services](#Services)
 
 
-## Intro
+## Introduction to Selenium
 
-If you are an academic, then you might want to include your publications as part of your CV.
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- What is Selenium? 
+- Why we automate? 
+- WebDriver Architecture
+- Selenium Pros and Cons
+- First Selenium Webdriver script
+- WebDriver Commands
+
 
 - [bibtex2html](https://github.com/backtracking/bibtex2html) - Command-line tool that converts `BibTeX` files into `HTML`.
 - [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar) - A `ruby` gem that works alongside the `jekyll` static-site generator in order to convert `BibTeX` into `HTML`.
