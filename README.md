@@ -76,11 +76,7 @@ There are (free or commercial) services that aid the user to fill-in and/or cust
 - [resumake](https://github.com/saadq/resumake.io) - Free service that supports the `JSON` resume standard and employs `LaTeX` templates.
 
 
-## Contribute
-
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
 
 ## License
 
-Copyright © 2022-2023, [Said Gaforov](https://github.com/gaforov).
+Copyright © 2022-2023, [Said Gaforov](https://github.com/gaforov). All Rights Reserved.<br> Copying, cloning, forking or storing any content is expressly prohibited without prior written permission of the author. Do not copy, cite, or distribute without permission of the author. 
