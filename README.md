@@ -5,15 +5,15 @@
 
 ## Contents
 
-- [Class 00](#Introduction to Selenium)
+- [Class 00](#Introduction)
 - [CSS](#CSS)
-- [Workflows1](#Workflows)
+- [Workflows](#Workflows)
 - [LaTeX](#LaTeX)
 - [Schemas](#Schemas)
 - [Services](#Services)
 
 
-## Introduction to Selenium
+## Introduction
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
