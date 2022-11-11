@@ -7,7 +7,7 @@
 
 - [Class 00](#Introduction to Selenium)
 - [CSS](#CSS)
-- [Workflows](#Workflows1)
+- [Workflows1](#Workflows)
 - [LaTeX](#LaTeX)
 - [Schemas](#Schemas)
 - [Services](#Services)
