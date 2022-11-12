@@ -27,7 +27,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- First Selenium Webdriver script
+- First Selenium WebDriver script
 - Basic WebDriver Commands
 
 
@@ -79,4 +79,4 @@ There are (free or commercial) services that aid the user to fill-in and/or cust
 
 ## License
 
-Copyright © 2022-2023, [Said Gaforov](https://github.com/gaforov). All Rights Reserved.<br> Copying, cloning, forking or storing any content is expressly prohibited without prior written permission of the author.<br> Do not copy, cite, or distribute without permission of the author. 
+Copyright © 2022-2023, [Said Gaforov](https://github.com/gaforov). All Rights Reserved.<br> Copying, cloning, forking or storing any content is expressly prohibited without prior written permission of the author.
