@@ -29,8 +29,8 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - Selenium Pros and Cons
 - First Selenium WebDriver script
 
+<sup>(back to [table of contents](#Contents))</sup>
 
-  <sup>(back to [table of contents](#Contents))</sup>
 
 ## Class_02
 WHAT YOU WILL LEARN (What is covered in this section):
@@ -38,11 +38,15 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - What is a web element?
 - Locators in Selenium
 
+<sup>(back to [table of contents](#Contents))</sup>
+
 
 ## Class_03
 WHAT YOU WILL LEARN (What is covered in this section):
 - Locators in Selenium Cont'd.
 - xPath Locators
+
+<sup>(back to [table of contents](#Contents))</sup>
 
 
 ## Class_04
@@ -50,11 +54,17 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - xPath Locators Cont'd
 - CSS Locators in Selenium
 
+<sup>(back to [table of contents](#Contents))</sup>
+
+
 ## Class_05
 WHAT YOU WILL LEARN (What is covered in this section):
 - More Selenium Methods/Commands
 - Boolean Methods in Selenium
 - Radio Button & Checkboxes
+
+<sup>(back to [table of contents](#Contents))</sup>
+
 
 #
 #
