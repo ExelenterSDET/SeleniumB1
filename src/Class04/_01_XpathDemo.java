@@ -17,7 +17,8 @@ public class _01_XpathDemo {
         driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("Exelent2022Sdet!");
         Thread.sleep(2000);
         // locate and click login button
-        driver.findElement(By.xpath("//input[@value='LOGIN']")).click();
+//        driver.findElement(By.xpath("//input[@value='LOGIN']")).click();
+        driver.findElement(By.xpath("//input[@value='LOGIN']")).submit();
         Thread.sleep(2000);
         // In order to verify we are logged in, we locate and click on the 'Welcome Admin' - top right corner of the dashboard.
         driver.findElement(By.xpath("//a[contains(text(),'Welcome')]")).click();
