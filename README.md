@@ -9,8 +9,13 @@
 - [Class 01](#Class_01)
 - [Class 02](#Class_02)
 - [Class 03](#Class_03)
-- [Class 04](#Class04)
+- [Class 04](#Class_04)
+- [Class 05](#Class_05)
 - [Services](#Services)
+
+  [Class 00](#Introduction) | [Class 01](#Class_01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class04) | [Class 05](#Class05) | #06 |
+  --- |--------|----------|----------|----------------------|----------------------|-----|
+  #07 | #08    | #09      | #10      | #11                  | #12                  | #13 |
 
 
 ## Introduction
@@ -46,10 +51,16 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - xPath Locators
 
 
-## Class04
+## Class_04
 WHAT YOU WILL LEARN (What is covered in this section):
 - xPath Locators Cont'd
 - CSS Locators in Selenium
+
+## Class_05
+WHAT YOU WILL LEARN (What is covered in this section):
+- More Selenium Methods/Commands
+- Boolean Methods in Selenium
+- Radio Button & Checkboxes
 
 #
 #
