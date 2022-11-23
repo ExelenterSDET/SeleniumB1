@@ -5,17 +5,9 @@
 
 ## Contents
 
-- [Class 00](#Introduction)
-- [Class 01](#Class_01)
-- [Class 02](#Class_02)
-- [Class 03](#Class_03)
-- [Class 04](#Class_04)
-- [Class 05](#Class_05)
-- [Services](#Services)
-
-  [Class 00](#Introduction) | [Class 01](#Class_01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class04) | [Class 05](#Class05) | #06 |
-  --- |--------|----------|----------|----------------------|----------------------|-----|
-  #07 | #08    | #09      | #10      | #11                  | #12                  | #13 |
+  [Class 00](#Introduction) | [Class 01](#Class_01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class_04) | [Class 05](#Class_05) | #06 |
+  --- |--------|----------|----------|-----------------------|-----------------------|-----|
+  #07 | #08    | #09      | #10      | #11                   | #12                   | #13 |
 
 
 ## Introduction
@@ -65,7 +57,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 #
 #
 
-
+[//]: # (# Services)
 Some Sample examples below how to use MD to insert links or highlight words. 
 - [Hack My Resume](https://github.com/hacksalot/HackMyResume) - Edit a single standard `JSON` file and generate CVs in HTML, Markdown, LaTeX, MS Word, PDF, plain text, JSON, XML, YAML with `JavaScript` libraries.
 - [Resume generator](https://github.com/mwhite/resume) - Edit a markdown file and then the unix `make` tool employs a `python` pre-processor and pandoc, in order to create PDF and HTML output.
