@@ -30,6 +30,8 @@ WHAT YOU WILL LEARN (What is covered in this section):
 - First Selenium WebDriver script
 
 
+  <sup>(back to [table of contents](#Contents))</sup>
+
 ## Class_02
 WHAT YOU WILL LEARN (What is covered in this section):
 - Basic WebDriver Commands
