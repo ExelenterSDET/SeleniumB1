@@ -13,10 +13,21 @@ public class _03_RadioDemo {
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 
+
+        // Checkbox One
+        WebElement checkboxOne = driver.findElement(By.cssSelector("input#checkbox-1"));
+        boolean checkboxOneSelected = checkboxOne.isSelected();
+        System.out.println("Checkbox One is Selected = " + checkboxOneSelected);  // true
+
+        // Checkbox Two
+        WebElement checkboxTwo = driver.findElement(By.xpath("(//input[@class='fs-checkbox-element'])[2]"));
+        boolean checkboxTwoEnabled = checkboxTwo.isEnabled();
+        System.out.println("Checkbox Two is Enabled = " + checkboxTwoEnabled); // true
+
         // Find the checkbox 'Three' and verify if it is enabled or not.
         WebElement checkboxThree = driver.findElement(By.cssSelector("input#checkbox-3"));
         boolean checkboxThreeEnabled = checkboxThree.isEnabled();
-        System.out.println("checkboxThreeEnabled = " + checkboxThreeEnabled);
+        System.out.println("Checkbox Three is Enabled = " + checkboxThreeEnabled); // true or false
 
 
         Thread.sleep(2000);
