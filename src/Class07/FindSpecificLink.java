@@ -51,15 +51,6 @@ public class FindSpecificLink {
         System.out.println("Total number of the links with text: " + count);
 
 
-        /**
-         *
-         *
-         *   List ==
-         *   Map is made of K,V
-         *      map.keySet()=== keys, map.values()
-         */
-
-
         Thread.sleep(2000);
         driver.close();
 
