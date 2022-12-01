@@ -1,20 +1,19 @@
 package Class08;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class CarsTestArrayList {
+public class _05_CarsTestArrayList {
     public static void main(String[] args) {
         // Using ArrayList to store objects
-        List<Cars> cars = new ArrayList<>();
+        List<_03_Cars> cars = new ArrayList<>();
         cars.add(new Toyota("Gasoline"));
         cars.add(new Honda("Gasoline"));
         cars.add(new Tesla("Electric"));
 
         System.out.println("--- Enhanced Loop ---");
-        for (Cars car : cars) {
+        for (_03_Cars car : cars) {
             car.fuelType();
         }
 
@@ -24,7 +23,7 @@ public class CarsTestArrayList {
         }
 
         System.out.println("--- Iterator ---");
-        Iterator<Cars> iterator = cars.iterator();
+        Iterator<_03_Cars> iterator = cars.iterator();
         while (iterator.hasNext()) {
             iterator.next().fuelType();
         }

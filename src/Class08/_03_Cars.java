@@ -1,9 +1,9 @@
 package Class08;
 
-public abstract class Cars {
+public abstract class _03_Cars {
     String fuelType;
 
-    public Cars(String fuelType) {
+    public _03_Cars(String fuelType) {
         this.fuelType = fuelType;
     }
 
@@ -11,7 +11,7 @@ public abstract class Cars {
 
 }
 
-class Toyota extends Cars {
+class Toyota extends _03_Cars {
 
     public Toyota(String fuelType) {
         super(fuelType);
@@ -23,7 +23,7 @@ class Toyota extends Cars {
     }
 }
 
-class Honda extends Cars {
+class Honda extends _03_Cars {
 
     public Honda(String fuelType) {
         super(fuelType);
@@ -35,7 +35,7 @@ class Honda extends Cars {
     }
 }
 
-class Tesla extends Cars {
+class Tesla extends _03_Cars {
     public Tesla(String fuelType) {
         super(fuelType);
     }
