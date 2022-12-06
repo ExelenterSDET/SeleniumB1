@@ -5,8 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
-// NOTE: THIS CLASS WRITES TO THE PROPERTIES FILE. Alternative name could be "WriteToProperties"
-
+// NOTE: THIS CLASS WRITES TO THE PROPERTIES FILE. Alternative name, to this class, could be "WriteToProperties"
 public class ConfigsWriter {
     public static void main(String[] args) throws IOException {
         String filePath = System.getProperty("user.dir") + "/configs/configuration.properties";

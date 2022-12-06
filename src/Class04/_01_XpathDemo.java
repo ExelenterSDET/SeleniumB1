@@ -3,11 +3,12 @@ package Class04;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import utils.Constants;
 
 public class _01_XpathDemo {
     private static String url = "https://exelentersdet.com/";
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver"); // window users add '.exe' at the end
+        System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH); // window users add '.exe' at the end
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 
