@@ -1,10 +1,7 @@
 package Class10;
 
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
@@ -43,6 +40,41 @@ public class _01_ExcelIntro {
         // Task 3: Phoenix
         System.out.println(sheet.getRow(2).getCell(2));
 
+
+        // 1st way of accessing cell value
+        Cell cellValue2 = sheet.getRow(0).getCell(2);
+        System.out.println("cellValue2 = " + cellValue2);
+
+        // 2nd way of accessing cell value
+        String cellValue1 = sheet.getRow(0).getCell(2).getStringCellValue();  // .toString()
+        System.out.println("cellValue1 = " + cellValue1);
+
+        // You cannot get String from Numeric, if data mismatch, you will get IllegalStateException
+        // String caZipCode = sheet.getRow(1).getCell(4).getStringCellValue();
+        double caZipCode = sheet.getRow(1).getCell(4).getNumericCellValue();
+        System.out.println("caZipCode = " + caZipCode);
+
+        // Identifying cell data types using the .getCellTypes() method.
+        CellType r0c2DataType = sheet.getRow(0).getCell(2).getCellType();
+        System.out.println("r0c2DataType = " + r0c2DataType);
+
+        // Task 4: Find data type for CA Zip Code
+        CellType r1c4DataType = sheet.getRow(1).getCell(4).getCellType();
+        System.out.println("r1c4DataType = " + r1c4DataType);
+
+        // How to find total number of the rows?
+        int numberOfRows = sheet.getPhysicalNumberOfRows();
+        System.out.println("numberOfRows = " + numberOfRows);
+
+        // How to find total number of the columns?
+        short numberOfColumns = sheet.getRow(0).getLastCellNum();
+        System.out.println("numberOfColumns = " + numberOfColumns);
+
+
+        int lastRowNum = sheet.getLastRowNum();
+        System.out.println("lastRowNum = " + lastRowNum);  // Index of the last row.
+
+        // Task Open new excel workbook (excel file) and name it EmployeeList.xlsx
 
     }
 }
