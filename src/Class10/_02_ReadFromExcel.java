@@ -1,5 +1,6 @@
 package Class10;
 
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -14,7 +15,7 @@ public class _02_ReadFromExcel {
         String filePath = System.getProperty("user.dir") + "/testData/EmployeeList.xlsx";
         FileInputStream fis = new FileInputStream(filePath);
 
-        Workbook workbook = new XSSFWorkbook(fis);
+        Workbook workbook = new XSSFWorkbook(fis); // automatic casting happing here - from Interface (Workbook) to its child class (XSSFWorkbook);
         Sheet sheet1 = workbook.getSheet("Sheet1");
         Row headerRow = sheet1.getRow(0);
         Cell r0c5_Salary = headerRow.getCell(5);
@@ -31,17 +32,17 @@ public class _02_ReadFromExcel {
 
         // First lets retrieve total number of the rows
         int rows = sheet1.getPhysicalNumberOfRows();
+
         // Next, lets get total number of the columns
         short cols = sheet1.getRow(0).getLastCellNum();
 
         for (int i = 0; i < rows; i++) {                                  // outer loop - always counts the number of rows
-            for (int j = 0; j < cols; j++) {                             // inner loop - always counts the number of columns
+            for (int j = 0; j < cols; j++) {                              // inner loop - always counts the number of columns
                 Cell cellValues = sheet1.getRow(i).getCell(j);
                 System.out.print(cellValues + " ");
             }
             System.out.println();
         }
-
 
 
     }
