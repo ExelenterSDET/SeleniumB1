@@ -1,4 +1,4 @@
-package Class01;
+package Class01.howWebDriverWorks;
 
 public class TestClass {
 

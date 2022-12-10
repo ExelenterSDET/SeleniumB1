@@ -1,10 +1,8 @@
-package Class01;
+package Class01.howWebDriverWorks;
 
 public interface ParentBrowser {
 
     void goTo(String URL);
-
-    void getCurrentURL();
 
     void getTitle();
 

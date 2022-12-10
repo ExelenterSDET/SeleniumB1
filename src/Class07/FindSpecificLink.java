@@ -26,10 +26,6 @@ public class FindSpecificLink {
 
         // Find all links on the Exelenter webpage
         List<WebElement> allLinksOnExelenter = driver.findElements(By.tagName("a"));
-        System.out.println("allLinksOnExelenter = " + allLinksOnExelenter.size());
-
-
-        // Store total number of the links in an INT data type
         int totalLinks = allLinksOnExelenter.size();
         System.out.println("Total number of Links on Exelenter = " + totalLinks);
 
@@ -38,16 +34,14 @@ public class FindSpecificLink {
         for (WebElement link : allLinksOnExelenter) {
             String linkText = link.getText();
             if (!linkText.isEmpty()) {
-                System.out.println(linkText);
+                System.out.println((count+1) + ". " + linkText);
                 count++;
             }
             if (linkText.contentEquals(expectedText)) {
-                System.out.println("Expected phrase is found: " + linkText);
+                System.out.println("Expected phrase is found: " + "\"" + linkText + "\"");
                 break;
             }
         }
-
-        System.out.println("-------------------");
         System.out.println("Total number of the links with text: " + count);
 
 
