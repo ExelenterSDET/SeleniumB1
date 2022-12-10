@@ -8,10 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class _04_ExcelToMap {
     public static void main(String[] args) throws IOException {
@@ -33,8 +30,17 @@ public class _04_ExcelToMap {
                 String key = sheet1.getRow(0).getCell(j).toString();
                 String value = sheet1.getRow(i).getCell(j).toString();
                 map.put(key,value);
+//                System.out.println(key + ": " + value);          // todo 2nd way
             }
-            System.out.println(map);
+//            System.out.println();                                // todo 2nd way
+
+            //System.out.println(map);                             // todo 1st way
+            Set<Map.Entry<String, String>> entries = map.entrySet();
+            for (Map.Entry<String, String> entry : entries) {
+                //System.out.println(entry);
+                System.out.println(entry.getKey() + ": " + entry.getValue());     // todo 3rd way
+            }
+            System.out.println();                                                 // todo 3rd way
         }
 
     }
