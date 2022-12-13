@@ -8,9 +8,9 @@ public class _00_OpenBrowser {
         // 1. Establish a connection with the driver(s)
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver"); // Windows users add .exe at the end ("drivers/chromedriver.exe")
         // 2. Open the browser using the Chromedriver's class constructor
-        WebDriver driver = new ChromeDriver(); // Launch the browser for us
+        WebDriver driver = new ChromeDriver(); // <--- This will launch the browser (empty, no links) for us.
 
-        // Navigate to Google website
+        // Navigate to a website
         driver.get("https://google.com");
 
         // Retrieve the title of the current website and store it in a String
