@@ -15,7 +15,7 @@ import static utils.BaseClass.*;
  * 3. By static import - 'import static utils.BaseClass.*;'
  */
 
-public class DropdownDemo {
+public class _01_DropdownDemo {
     public static void main(String[] args) throws InterruptedException {
         setUp();
 

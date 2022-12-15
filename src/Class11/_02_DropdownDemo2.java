@@ -8,7 +8,7 @@ import java.util.List;
 
 import static utils.BaseClass.*;
 
-public class DropdownDemo2 {
+public class _02_DropdownDemo2 {
     public static void main(String[] args) throws InterruptedException {
         setUp();
 
@@ -50,7 +50,7 @@ public class DropdownDemo2 {
         }
 
         // Check if List of Countries is multiple - if we can select multiple elements at a time
-        System.out.println("CountryDD is Multiple: " + select.isMultiple()); // Can I choose/select more than one at once?
+        System.out.println("CountryDD is Multiple: " + select.isMultiple());                        // Can I choose/select more than one at once?
 
         // Identify if 'Months' dropdown is multiple or not
         WebElement months = driver.findElement(By.cssSelector("select[name='Month']"));
