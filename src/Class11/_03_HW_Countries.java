@@ -8,7 +8,7 @@ import java.util.List;
 
 import static utils.BaseClass.*;
 
-public class HW_Countries {
+public class _03_HW_Countries {
     public static void main(String[] args) throws InterruptedException {
         setUp();
 

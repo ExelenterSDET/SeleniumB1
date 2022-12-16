@@ -17,7 +17,7 @@ import static utils.BaseClass.*;
 
 public class _01_DropdownDemo {
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+        setUp(); // Switch to URL: https://selenium08.blogspot.com/2019/11/dropdown.html
 
         // 1st way: Without using Select Class
 //        List<WebElement> countries = driver.findElements(By.cssSelector("select[name='country'] option"));
