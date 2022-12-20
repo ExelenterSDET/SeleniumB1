@@ -13,7 +13,7 @@ import static utils.BaseClass.*;
 public class _05_DropdownDDMMYYYY_Refactor2 {
 
     public static void main(String[] args) {
-        setUp();  // For this test switch to: https://vitalets.github.io/combodate/
+        setUp("https://vitalets.github.io/combodate/");
         findDate(8,"30", "2014");   // <--- THIS IS CALLED CLEAN CODING. All distractions are hidden elsewhere.
         tearDown();
     }

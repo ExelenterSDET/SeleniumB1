@@ -11,7 +11,7 @@ import static utils.BaseClass.*;
 
 public class _04_DropdownArrayList {
     public static void main(String[] args) {
-        setUp(); // Switch to URL: https://selenium08.blogspot.com/2019/11/dropdown.html
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         WebElement months = driver.findElement(By.cssSelector("select[name='Month']"));
         Select select = new Select(months);

@@ -7,7 +7,7 @@ import static utils.BaseClass.*;
 
 public class _02_ModalAlert {
     public static void main(String[] args) throws InterruptedException {
-        setUp();   // switch to URL: https://demoqa.com/modal-dialogs
+        setUp("https://demoqa.com/modal-dialogs");
 
         WebElement modalAlert = driver.findElement(By.id("showSmallModal"));   // Find web element for modal alert type (HTML based alert) and store it
         modalAlert.click();                                                          // click to trigger (launch) it.

@@ -10,7 +10,7 @@ import static utils.BaseClass.*;
 
 public class _03_HW_Countries {
     public static void main(String[] args) throws InterruptedException {
-        setUp();
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         WebElement countryDD = driver.findElement(By.cssSelector("select[name='country']"));
         Select select = new Select(countryDD);

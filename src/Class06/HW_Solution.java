@@ -24,7 +24,7 @@ import static utils.BaseClass.*;
 
 public class HW_Solution {
     public static void main(String[] args) {
-        setUp();
+        setUp("https://the-internet.herokuapp.com/");
 
         driver.findElement(By.linkText("Checkboxes")).click();
 
