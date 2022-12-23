@@ -24,8 +24,10 @@ public class _03_Task {
         WebElement link = driver.findElement(By.linkText("https://a9t9.com"));
         System.out.println("linkText: " + link.getText());
 
+
         Thread.sleep(2000);
         link.click();
+        Thread.sleep(2000);
 
         tearDown();
     }
