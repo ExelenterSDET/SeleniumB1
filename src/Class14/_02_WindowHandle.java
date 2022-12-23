@@ -42,8 +42,7 @@ public class _02_WindowHandle {
 
 
             // What if we want to switch focus to a specific tab/window?
-            List<String> windowList = new ArrayList<>();
-            windowList.add(nextWindow);
+
             if (title.contains("Store")) {
                 driver.switchTo().window(nextWindow);
                 System.err.println("Window is found and switched to: " + driver.getTitle());
