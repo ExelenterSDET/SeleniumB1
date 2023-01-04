@@ -39,8 +39,14 @@ public class _01_DropdownDemo {
             country.click();
             if (country.getText().equals("Denmark")) {
                 country.click();
+                System.out.println("County is found: " + country.getText());
                 break;
             }
+        }
+
+        System.out.println("=== Print ALL Countries ===");
+        for (WebElement country : countries) {
+            System.out.println(country.getText());
         }
 
 //        for (int i = 0; i < countries.size(); i++) {

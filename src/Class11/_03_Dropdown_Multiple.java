@@ -21,9 +21,14 @@ public class _03_Dropdown_Multiple {
         System.out.println("totalMonths: " + totalMonths);
 
 
-        // Task: Print ALL months using  1. For Loop, 2.Enhanced Loop, 3.Iterator Loop.
+        /**
+         *   Print ALL months using
+         *      1. For Loop
+         *      2. Enhanced Loop
+         *      3  Iterator
+          */
 
-        // Before looping we need to know the size/length of what we are about to loop.
+        // Before looping we need to know the size/length of what we are about to loop, which we identified above in line 20.
 
         System.out.println("==== For Loop ====");
         for (int i = 1; i < totalMonths; i++) {

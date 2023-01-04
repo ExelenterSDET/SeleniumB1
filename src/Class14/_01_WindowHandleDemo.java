@@ -1,7 +1,6 @@
 package Class14;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Iterator;
 import java.util.Set;
