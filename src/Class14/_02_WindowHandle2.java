@@ -30,12 +30,13 @@ public class _02_WindowHandle2 {
         Set<String> allWindows = driver.getWindowHandles();          // This will store all TABS in a Set of Strings
         //allWindows.forEach(System.out::println);
 
-        //switchToWindow("Store", allWindows);                // Go to the Set of Strings declared on line 27 and when 'Store' is found' print it
+        //switchToWindow("Store", allWindows);                // Loop through all windows and when 'Store' is found' print it
         //switchToWindow(expectedTitle, allWindows);
 
         switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows); // In this line, it is reading from properties file.
 
 
+        // I am printing ALL children Tabs/Window except parent window:
         for (String window : allWindows) {
             if (!window.contains(parentWindow)) {
                 System.out.println("This is a child window: " + driver.switchTo().window(window).getTitle());
