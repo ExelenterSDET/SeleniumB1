@@ -10,6 +10,7 @@ import java.util.Set;
 import static utils.BaseClass.*;
 
 public class _02_WindowHandle2 {
+    static String expectedTitle = "Store";
     public static void main(String[] args) {
         setUp("https://google.com");
 
@@ -26,22 +27,26 @@ public class _02_WindowHandle2 {
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://amazon.com");
 
-        String expectedTitle = "Store";
+
         Set<String> allWindows = driver.getWindowHandles();          // This will store all TABS in a Set of Strings
         //allWindows.forEach(System.out::println);
 
-        //switchToWindow("Store", allWindows);                // Loop through all windows and when 'Store' is found' print it
-        //switchToWindow(expectedTitle, allWindows);
+        // ternary operator Note: This is same as the one in line 45-49
+        allWindows.forEach(window -> System.out.println(!window.contains(parentWindow)?"Child: " + window:"Parent: " + parentWindow));
 
+
+        // We are printing switchToWindow() in three different ways in below examples:
+        //switchToWindow("Store", allWindows);                      // Loop through all windows and when 'Store' is found' print it
+        //switchToWindow(expectedTitle, allWindows);
         switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows); // In this line, it is reading from properties file.
 
 
         // I am printing ALL children Tabs/Window except parent window:
-        for (String window : allWindows) {
-            if (!window.contains(parentWindow)) {
-                System.out.println("This is a child window: " + driver.switchTo().window(window).getTitle());
-            }
-        }
+//        for (String window : allWindows) {
+//            if (!window.contains(parentWindow)) {
+//                System.out.println("This is a child window: " + driver.switchTo().window(window).getTitle());
+//            }
+//        }
 
         tearDown();
     }
