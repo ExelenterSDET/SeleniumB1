@@ -23,6 +23,7 @@ public class BaseClass {
 
         //driver.get(ConfigsReader.getProperties("url"));
         driver.get(url);
+        driver.manage().window().maximize();
 
     }
 
