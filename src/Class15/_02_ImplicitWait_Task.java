@@ -17,7 +17,7 @@ import static utils.BaseClass.*;
 public class _02_ImplicitWait_Task {
     public static void main(String[] args) {
         setUp("http://uitestpractice.com/Students/Contact");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));       // This is a GLOBAL wait. Applies to entire elements in the class.
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));       // This is a GLOBAL wait. Applies to entire elements in the class.
 
         try {
             driver.findElement(By.linkText("This is a Ajax link")).click();
