@@ -14,7 +14,7 @@ import static utils.BaseClass.*;
  *     3. Switch to new tabs and print their title to the console as well.
  *        Bonus: Load facebook website in all children pages.
  */
-public class _04_Task {
+public class WindowHW {
     public static void main(String[] args) throws InterruptedException {
         setUp("https://the-internet.herokuapp.com/windows");
 

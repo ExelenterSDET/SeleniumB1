@@ -1,4 +1,4 @@
-# Selenium Curriculum 2022 (v.01)
+# Selenium Curriculum 2022 (v.1.0)
 
 > Prepared by Said Gaforov for Exelenter students
 

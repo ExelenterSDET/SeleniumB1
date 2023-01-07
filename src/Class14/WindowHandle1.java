@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static utils.BaseClass.*;
 
-public class _01_WindowHandleDemo {
+public class WindowHandle1 {
     public static void main(String[] args) throws InterruptedException {
         setUp("https://the-internet.herokuapp.com/windows");
 

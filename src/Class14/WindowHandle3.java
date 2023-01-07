@@ -2,14 +2,12 @@ package Class14;
 
 import org.openqa.selenium.WindowType;
 
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
 import static utils.BaseClass.*;
 
-public class _02_WindowHandle {
+public class WindowHandle3 {
     public static void main(String[] args) {
         setUp("https://google.com");
 
@@ -43,6 +41,7 @@ public class _02_WindowHandle {
 
 
             // What if we want to switch focus to a specific tab/window?
+
             if (title.contains("Store")) {
                 driver.switchTo().window(nextWindow);
                 System.err.println("Window is found and switched to: " + driver.getTitle());

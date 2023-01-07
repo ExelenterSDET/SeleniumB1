@@ -3,20 +3,17 @@ package Class14;
 import org.openqa.selenium.WindowType;
 import utils.ConfigsReader;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 import static utils.BaseClass.*;
 
-public class _02_WindowHandle2 {
+public class WindowHandle3_Refactor1 {
     static String expectedTitle = "Store";
     public static void main(String[] args) {
         setUp("https://google.com");
 
         String parentWindow = driver.getWindowHandle();
         System.out.println("Parent window: " + parentWindow);
-
 
         driver.switchTo().newWindow(WindowType.TAB);    // This will open a new BLANK TAB and switch (the focus) to it
         driver.get("https://about.google/");                    // This will open given URL in our new blank tab
@@ -27,18 +24,8 @@ public class _02_WindowHandle2 {
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://amazon.com");
 
-
         Set<String> allWindows = driver.getWindowHandles();          // This will store all TABS in a Set of Strings
-        //allWindows.forEach(System.out::println);
-
-        // ternary operator Note: This is same as the one in line 45-49
-        allWindows.forEach(window -> System.out.println(!window.contains(parentWindow)?"Child: " + window:"Parent: " + parentWindow));
-
-
-        // We are printing switchToWindow() in three different ways in below examples:
-        //switchToWindow("Store", allWindows);                      // Loop through all windows and when 'Store' is found' print it
-        //switchToWindow(expectedTitle, allWindows);
-        switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows); // In this line, it is reading from properties file.
+        //allWindows.forEach(System.out::println);                   // This will print ALL Tabs/Windows using forEach() method.
 
 
         // I am printing ALL children Tabs/Window except parent window:
@@ -48,6 +35,18 @@ public class _02_WindowHandle2 {
 //            }
 //        }
 
+        // Note: Ternary operator ==> This is similar to the one above, instead of enhanced loop we are using ternary here.
+//        allWindows.forEach(window -> System.out.println(!window.contains(parentWindow)?"Child: " + window:"Parent: " + parentWindow));
+
+
+
+        // We are calling the switchToWindow() method in three different ways in below examples:
+
+        //switchToWindow("Store", allWindows);                      // 1st way: Loop through all windows and when 'Store' is found' print it
+        //switchToWindow(expectedTitle, allWindows);                // 2nd way:
+        switchToWindow(ConfigsReader.getProperties("expectedTitle"), allWindows);   // 3rd way: In this line, it is reading from properties file.
+
+
         tearDown();
     }
 
@@ -55,7 +54,8 @@ public class _02_WindowHandle2 {
         for (String windowOrTab : windows) {
             String title = driver.switchTo().window(windowOrTab).getTitle();
             if (title.contains(windowTitle)) {
-                System.out.println("Window is found: " + driver.getTitle() +  " URL: " + driver.getCurrentUrl());
+                System.err.println("Window is found! Page Title: " + driver.getTitle() +  " URL: " + driver.getCurrentUrl());
+                break; // With 'break', If I search windowTitle by 'Google' only first title will print, without break ALL titles that contain text 'Google' will print
             }
         }
     }

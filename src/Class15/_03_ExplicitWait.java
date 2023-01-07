@@ -30,7 +30,6 @@ public class _03_ExplicitWait {
         By by = By.className("ContactUs");                                       // This is locator.
 
 
-
         tearDown();
 
     }

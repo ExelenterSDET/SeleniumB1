@@ -21,7 +21,7 @@ public class _01_WaitDemo {
             System.out.println("Hello World text: " + helloWorld.getText());                            // Printing text from the element 'Hello World'
         } catch (NoSuchElementException e) {
             e.printStackTrace();
-            System.out.println("Element is not found. You might wanna wait longer for it to appear?");
+            System.out.println("Element is not found. Wait longer for the element to become visible on the UI");
         }
 
         tearDown();
