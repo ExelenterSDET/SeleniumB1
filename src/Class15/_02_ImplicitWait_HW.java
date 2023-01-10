@@ -14,7 +14,7 @@ import static utils.BaseClass.*;
  *    3. First use without wait, handle the exception, should say "Element is not found, Please wait longer for element to become visible".
  *    4. Wait for its content to load and retrieve the text from it and print it to the console.
  */
-public class _02_ImplicitWait_Task {
+public class _02_ImplicitWait_HW {
     public static void main(String[] args) {
         setUp("http://uitestpractice.com/Students/Contact");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));       // This is a GLOBAL wait. Applies to entire elements in the class.

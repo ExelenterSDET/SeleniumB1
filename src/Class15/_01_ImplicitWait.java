@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import java.time.Duration;
 import static utils.BaseClass.*;
 
-public class _01_WaitDemo {
+public class _01_ImplicitWait {
     public static void main(String[] args) throws InterruptedException {
         setUp("https://the-internet.herokuapp.com/dynamic_loading/2");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));        // Selenium 4. This is implicit wait, and its dynamic wait.
