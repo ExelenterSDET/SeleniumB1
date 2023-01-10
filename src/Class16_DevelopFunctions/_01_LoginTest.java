@@ -20,9 +20,7 @@ public class _01_LoginTest {
         WebElement username = driver.findElement(By.id("txtUsername"));
         //sendText(username, "Admin");
         CommonMethods.sendText(username, ConfigsReader.getProperties("username"));
-
-
-
+        
         tearDown();
     }
 
