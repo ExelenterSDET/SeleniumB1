@@ -23,7 +23,7 @@ public class WindowHandle3_Refactor2 {
         Set<String> allWindows = driver.getWindowHandles();
 
 //        switchToWindow("Google", allWindows);
-//        switchToWindow(ConfigsReader.getProperties("expectedTitle"));   // Amazon
+        switchToWindow(ConfigsReader.getProperties("expectedTitle"));   // Amazon
         switchToWindow("Google");
 
 
