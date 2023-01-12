@@ -3,6 +3,7 @@ package utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -84,6 +85,42 @@ public class CommonMethods {
             if (actualValue.equals(expectedValue)) {
                 element.click();
                 break;
+            }
+        }
+    }
+
+    public static void selectDdValue(List<WebElement> dropdownList, String expectedValue) {
+        for (WebElement element : dropdownList) {
+            String actualValue = element.getText();
+            if (actualValue.equals(expectedValue)) {
+                element.click();
+                break;
+            }
+        }
+    }
+
+    public static void selectDdValue(WebElement element, String expectedValue) {
+        Select select = new Select(element);
+        List<WebElement> options = select.getOptions();
+        for (WebElement option : options) {
+            if (option.getText().equals(expectedValue)) {
+                select.selectByVisibleText(expectedValue);
+                break;
+            }
+        }
+    }
+
+    public static void selectDdValue(WebElement element, int index) {
+        Select select = new Select(element);
+        List<WebElement> options = select.getOptions();
+        if (index < options.size()) {
+            select.selectByIndex(index);
+        } else {
+            try {
+                throw new IndexOutOfBoundsException(index);
+            } catch (IndexOutOfBoundsException e) {
+                e.printStackTrace();
+                System.out.println("Incorrect Index used. Please use a number between 1 and " + options.size());
             }
         }
     }
