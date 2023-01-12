@@ -4,7 +4,7 @@ public class CustomExceptionDemo {
     public static void main(String[] args) throws Exception {
         int myint = 10;
 
-        if (myint > 15) {
+        if (myint >= 15) {
             System.out.println("Hi");
         } else {
             try {
