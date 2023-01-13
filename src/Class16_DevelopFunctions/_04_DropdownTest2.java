@@ -14,7 +14,7 @@ public class _04_DropdownTest2  {
 
         String expectedText = "January";
 
-        // Method 1 ==> without Select class  (we need to locate ALL children within the dropdown == List<WebElement>)
+        // Method 1 ==> without Select class  (we need to locate ALL children within the dropdown ==> List<WebElement>)
         List<WebElement> listOfMonths = driver.findElements(By.cssSelector("select[name='Month'] option"));
         for (WebElement month : listOfMonths) {
             String actualText = month.getText(); // or .getValue();
@@ -24,8 +24,8 @@ public class _04_DropdownTest2  {
             }
         }
 
-        // Method 2 ==> use Select Class (if DD is built with Select class and has options, use this approach).
-        // We only need to locate parent of dropdown (not Options) == single WebElement
+        // Method 2 ==> using Select Class (if DD is built with Select class and has options, use this approach).
+        // We only need to locate parent of dropdown (not Options) ==> single WebElement
         WebElement monthsDD = driver.findElement(By.cssSelector("select[name='Month']"));
         Select select = new Select(monthsDD);
         select.selectByIndex(4);

@@ -19,7 +19,7 @@ public class _02_RadioOrCheckboxTest {
         String expectedValue = "green";
 
         clickRadioOrCheckbox(colorsList, expectedValue);
-        clickRadioOrCheckbox(browserList, "Mozilla");
+        clickRadioOrCheckbox(browserList, "IE");
 
 //        for (WebElement color : colorsList) {
 //            String colorValue = color.getAttribute("value");   // green will be retrieved.
