@@ -24,10 +24,10 @@ public class _03_DynamicTable1 {
         // Task: Selecting a specific row and perform action on it, such as, edit or delete it.
         String expectedValue = "Charles Dodgeson";
 
-        List<WebElement> actualValue = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]"));
+        List<WebElement> actualValue = driver.findElements(By.xpath("//table[@class='SampleTable']//tr/td[2]")); // Names column
 
-        // Logic. Compare expected with Actual, once match is found, click on the checkbox and then click on the delete button.
-        // Mini task.
+        // Task: Compare expected with Actual, once match is found, click on the checkbox and then click on the delete button.
+
         for (int i = 0; i < rows.size(); i++) {
             // Logic: Step 1: if Name column contains expectedValue go ahead and click checkbox next to it.
             driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")")); // <== we can also use xPath version of this css
