@@ -28,6 +28,9 @@ public class _03_DynamicTable1 {
 
         // Logic. Compare expected with Actual, once match is found, click on the checkbox and then click on the delete button.
         // Mini task.
+        for (int i = 0; i < rows.size(); i++) {
+            driver.findElement(By.xpath("(//table[@class='SampleTable']//tr/td/input)[" + i + "]"));
+        }
 
         tearDown();
     }
