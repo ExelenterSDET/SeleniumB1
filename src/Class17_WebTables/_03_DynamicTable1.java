@@ -33,7 +33,7 @@ public class _03_DynamicTable1 {
             driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")")); // <== we can also use xPath version of this css
         }
 
-        // Step 2: locate Delete web element and click on it to delete selected name
+        // Step 2: locate 'Delete' button web element and click on it to delete selected name above
         // Step 3: Print all rows again, now you should have one less row.
 
         tearDown();
