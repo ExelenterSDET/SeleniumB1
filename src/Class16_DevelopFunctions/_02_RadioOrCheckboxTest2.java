@@ -1,6 +1,7 @@
 package Class16_DevelopFunctions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -16,13 +17,14 @@ public class _02_RadioOrCheckboxTest2 {
         WebElement noRadioBtn = driver.findElement(By.id("noRadio"));
         WebElement yesRadioBtn = driver.findElement(By.id("yesRadio"));
 
-        boolean radioBtnEnabled = noRadioBtn.isEnabled();
-        System.out.println("radioBtnEnabled: " + radioBtnEnabled);
-
+        boolean noRadioBtnEnabled = noRadioBtn.isEnabled();
+        System.out.println("noRadioBtnEnabled: " + noRadioBtnEnabled);
+        boolean yesRadioBtnEnabled = yesRadioBtn.isEnabled();
+        System.out.println("yesRadioBtnEnabled: " + yesRadioBtnEnabled);
 
 
         //clickRadioOrCheckbox(noRadioBtn);
-        //clickButWaitForClickability(yesRadioBtn);
+        //clickButWaitForClickability(yesRadioBtn);  // JS click should fix this.
         //clickRadioOrCheckbox(yesRadioBtn);
 
         tearDown();

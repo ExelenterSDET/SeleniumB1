@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 
 // NOTE: THIS CLASS IS USED TO LAUNCH AND QUIT THE BROWSER
+
 public class BaseClass {
     public static WebDriver driver;
     public static void setUp(String url) {
