@@ -29,8 +29,12 @@ public class _03_DynamicTable1 {
         // Logic. Compare expected with Actual, once match is found, click on the checkbox and then click on the delete button.
         // Mini task.
         for (int i = 0; i < rows.size(); i++) {
-            driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")"));
+            // Logic: Step 1: if Name column contains expectedValue go ahead and click checkbox next to it.
+            driver.findElement(By.cssSelector("input[type='checkbox']:nth-child(" + i + ")")); // <== we can also use xPath version of this css
         }
+
+        // Step 2: locate Delete web element and click on it to delete selected name
+        // Step 3: Print all rows again, now you should have one less row.
 
         tearDown();
     }
