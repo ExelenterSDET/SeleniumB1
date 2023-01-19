@@ -201,7 +201,7 @@ public class CommonMethods {
      *
      * @param second int
      */
-    public static void waitInSeconds(int second) {
+    public static void wait(int second) {
         try {
             Thread.sleep(second * 1000L);
         } catch (InterruptedException e) {

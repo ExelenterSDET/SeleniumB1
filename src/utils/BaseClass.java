@@ -8,7 +8,7 @@ import java.time.Duration;
 
 // NOTE: THIS CLASS IS USED TO LAUNCH AND QUIT THE BROWSER
 
-public class BaseClass {
+public class BaseClass extends CommonMethods {
     public static WebDriver driver;
     public static void setUp(String url) {
         ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants

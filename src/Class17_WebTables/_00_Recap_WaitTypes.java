@@ -18,12 +18,12 @@ public class _00_Recap_WaitTypes extends CommonMethods {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));   // EXPLICIT WAIT
 
         driver.findElement(By.linkText("Dynamic Controls")).click();
-        waitInSeconds(1);
+        wait(1);
         WebElement checkbox = driver.findElement(By.cssSelector("input[type='checkbox']"));
         System.out.println("Checkbox is selected: " + checkbox.isSelected());  // false
         checkbox.click();
         System.out.println("Checkbox is selected: " + checkbox.isSelected());  // true
-        waitInSeconds(1);
+        wait(1);
         WebElement button = driver.findElement(By.cssSelector("button[onclick='swapCheckbox()']"));
         System.out.println("Button text: " + button.getText());   // button ==> 'Remove' text
         button.click();
@@ -32,7 +32,7 @@ public class _00_Recap_WaitTypes extends CommonMethods {
         String message = driver.findElement(By.id("message")).getText();
         System.out.println("message: " + message);                // it's gone!
         System.out.println("Button text: " + button.getText());   // button ==> 'Add' text
-        waitInSeconds(1);
+        wait(1);
         button.click();
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("message")));     // this is for Explicit wait only, comment it out when using Implicit wait
