@@ -28,7 +28,6 @@ public class _01_SimpleCalendar extends BaseClass {
         List<WebElement> daysDD = driver.findElements(By.cssSelector("div.react-datepicker__week div"));
         selectDdValue(daysDD, "15");
 
-
         WebElement datePickerField = driver.findElement(By.id("datePickerMonthYearInput"));
         String pickerFieldText = datePickerField.getAttribute("value");
         System.out.println("Date picker input value: " + pickerFieldText);
