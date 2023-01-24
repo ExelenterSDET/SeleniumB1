@@ -16,6 +16,7 @@ public class _01_SimpleCalendar extends BaseClass {
         // Click on the date-picker field to pop/activate the calendar.
         driver.findElement(By.id("datePickerMonthYearInput")).click();
 
+
         // Select month(s) from the calendar dropdown
         WebElement monthDD = driver.findElement(By.cssSelector("select[class='react-datepicker__month-select']"));
         selectDdValue(monthDD, "July");      // also By Index = 9.
