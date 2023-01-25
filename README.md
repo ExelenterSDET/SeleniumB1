@@ -4,9 +4,9 @@
 
 ## Contents
 
-| [Class 00](#Introduction) | [Class 01](#Chapter 01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class_04)   | [Class 05](#Class_05) | [Class 06](#Class_06) |
+| [Class 00](#Introduction) | [Class 01](#Chapter_01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class_04)   | [Class 05](#Class_05) | [Class 06](#Class_06) |
 |---------------------------|-------------------------|-----------------------|-----------------------|-------------------------|-----------------------|-----------------------|
-| [Class 07](#Class_07)     | [Class 08](#Class_08)   | [Class 09](#Class_09) | [Class 10](#Class_10) | [Class 11](#Chapter 11) | [Class 12](#Class_12) | [Class 13](#Class_13) |
+| [Class 07](#Class_07)     | [Class 08](#Class_08)   | [Class 09](#Class_09) | [Class 10](#Class_10) | [Class 11](#Chapter_11) | [Class 12](#Class_12) | [Class 13](#Class_13) |
 
 
 
@@ -22,7 +22,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
     - When we do manual?
     - Why manual is important?
 
-## Chapter 01
+## Chapter_01
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -120,7 +120,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter 11
+## Chapter_11
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
