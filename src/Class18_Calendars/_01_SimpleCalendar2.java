@@ -19,6 +19,9 @@ public class _01_SimpleCalendar2 extends BaseClass {
             System.out.print(day.get(i).getText() + " | ");
         }
 
+        // Get months
+        // Get years
+
 
         tearDown();
     }

@@ -18,12 +18,12 @@ import java.util.List;
  * 7. Delete added employee (By employee ID - ID is unique, could be multiple employees with same name)
  * 8. Quit the browser
  */
-public class _05_HW_AddAndDeleteEmployee extends BaseClass {
+public class _05_HW_AddAndDeleteEmployee2 extends BaseClass {
     public static void main(String[] args) {
         setUp("https://www.exelentersdet.com/");
 
-        String firstName = "John";
-        String lastName = "Doe";
+        String firstName = "firstName";
+        String lastName = "lastName";
         //Login to web application
         sendText(driver.findElement(By.id("txtUsername")), ConfigsReader.getProperties("username"));
         sendText(driver.findElement(By.id("txtPassword")), ConfigsReader.getProperties("password"));
@@ -38,9 +38,14 @@ public class _05_HW_AddAndDeleteEmployee extends BaseClass {
         // Add Employee
         driver.findElement(By.id("firstName")).sendKeys(firstName);
         driver.findElement(By.id("lastName")).sendKeys(lastName);
+        wait(1);
 
         // Get employee ID before you click 'Save' button (because we need it later for verification).
         String employeeID = driver.findElement(By.id("employeeId")).getAttribute("value");   // Retrieving employee ID and store it in a String
+
+        // Change employeeID with non-existing employee ID for test to fail, if not found at all, should NOT click next button forever.
+//        employeeID = "001234567";
+
 
         // Identify web element for 'Save' button and click on it
         driver.findElement(By.id("btnSave")).click();
@@ -49,7 +54,7 @@ public class _05_HW_AddAndDeleteEmployee extends BaseClass {
         // Once you click on Save button, takes you to Details Page --> verify employee is added.
         String addedEmployeeFullName = driver.findElement(By.cssSelector("div#profile-pic h1")).getText();
         if (addedEmployeeFullName.equals(firstName + " " + lastName))
-            System.out.println("Employee is added successfully");
+            System.out.println("Employee " + firstName +" "+ lastName + " with employee ID "  + employeeID + " is added successfully");
         else
             System.out.println("Employee is NOT added");
 
@@ -64,17 +69,17 @@ public class _05_HW_AddAndDeleteEmployee extends BaseClass {
             List<WebElement> rows = driver.findElements(By.cssSelector("div#tableWrapper tbody tr"));   // Get number of rows per page.
             for (int i = 0; i < rows.size(); i++) {
                 String empID = driver.findElement(By.cssSelector("table#resultTable tbody tr:nth-child(" + (i+1) + ") td:nth-child(2)")).getText();
-                if (rows.get(i).getText().equals(empID)) {
+                if (employeeID.equals(empID)) {
                     found = true;
                     wait(1);
                     // Select checkbox next to employee and click on delete button
-                    driver.findElement(By.cssSelector("table#resultTable tbody tr:nth-child(" + i + ") td:nth-child(1)")).click();  // click the checkbox
+                    driver.findElement(By.cssSelector("table#resultTable tbody tr:nth-child(" + (i+1) + ") td:nth-child(1)")).click();  // click the checkbox
                     wait(1);
                     driver.findElement(By.id("btnDelete")).click();  // Locate element for 'delete' button and click on it
                     wait(1);
                     driver.findElement(By.id("dialogDeleteBtn")).click();  // Click on the second delete button (html alert/dialog)
                     wait(1);
-                    System.out.println("Employee " + firstName + " " + lastName + " with employee ID " + employeeID + " has been deleted"); // Optionally, add confirmation message.
+                    System.out.println("Employee " + firstName + " " + lastName + " with employee ID " + empID + " has been deleted"); // Optionally, add confirmation message.
                     break;
                 }
             }
