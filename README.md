@@ -4,11 +4,9 @@
 
 ## Contents
 
-| [Class 00](#Introduction) | [Class 01](#Chapter_01) | [Class 02](#Class_02) | [Class 03](#Class_03) | [Class 04](#Class_04)   | [Class 05](#Class_05) | [Class 06](#Class_06) |
-|---------------------------|-------------------------|-----------------------|-----------------------|-------------------------|-----------------------|-----------------------|
-| [Class 07](#Class_07)     | [Chapter 08](#Class_08) | [Class 09](#Class_09) | [Class 10](#Class_10) | [Class 11](#Chapter_11) | [Class 12](#Class_12) | [Class 13](#Class_13) |
-
-
+| [Chapter 00](#Introduction) | [Chapter 01](#Chapter_01) | [Chapter 02](#Chapter_02) | [Chapter 03](#Chapter_03) | [Chapter 04](#Chapter_04) | [Chapter 05](#Chapter_05) | [Chapter 06](#Chapter_06) |
+|-----------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|
+| [Chapter 07](#Chapter_07)   | [Chapter 08](#Chapter_08) | [Chapter 09](#Chapter_09) | [Chapter 10](#Chapter_10) | [Chapter 11](#Chapter_11) | [Chapter 12](#Chapter_12) | [Chapter 13](#Chapter_13) |
 
 ## Introduction
 
@@ -34,7 +32,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_02
+## Chapter_02
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -44,7 +42,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_03
+## Chapter_03
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -53,7 +51,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_04
+## Chapter_04
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -62,7 +60,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_05
+## Chapter_05
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -72,7 +70,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_06
+## Chapter_06
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -82,7 +80,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_07
+## Chapter_07
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -91,7 +89,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_08
+## Chapter_08
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -100,7 +98,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_09
+## Chapter_09
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -110,7 +108,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_10
+## Chapter_10
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -129,7 +127,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_12
+## Chapter_12
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -140,7 +138,7 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Class_13
+## Chapter_13
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
