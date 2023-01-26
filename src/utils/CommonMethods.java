@@ -81,8 +81,12 @@ public class CommonMethods {
         waitForElement().until(ExpectedConditions.visibilityOf(element));
     }
 
-    public static void waitForVisibility(By by) {
+    public static void waitForVisibilityOfElement(By by) {
         waitForElement().until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
+
+    public static void waitForPresenceOfElement(By by) {
+        waitForElement().until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
     public static void clickButWaitForVisibility(WebElement element) {
@@ -208,6 +212,5 @@ public class CommonMethods {
             throw new RuntimeException(e);
         }
     }
-
 
 }
