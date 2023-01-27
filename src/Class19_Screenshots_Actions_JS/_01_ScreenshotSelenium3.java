@@ -22,6 +22,9 @@ public class _01_ScreenshotSelenium3 extends BaseClass {    // Now this Class ha
          *  For copying file from source (webpage) to destination (your local folder), we can use either:
          *      1. FileUtils.copyFile(sourceFile, destinationFile)  <== from Commons IO, an Apache Library
          *      2. FileHandler.copy(sourceFile, destinationFile)    <== from Selenium Library
+         *
+         *      Method used is:
+         *         - getScreenshotAs()
          */
 
         // Before taking screenshot, wait for any element (yellow circle) to become present
