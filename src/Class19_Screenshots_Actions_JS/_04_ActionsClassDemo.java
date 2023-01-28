@@ -43,6 +43,9 @@ public class _04_ActionsClassDemo extends BaseClass {
         actions.doubleClick(driver.findElement(By.id("doubleClickBtn"))).perform();
         System.out.println(driver.findElement(By.id("doubleClickMessage")).getText());     // Locating and Printing message for Double Click Me.
 
+        // Click on the 'Right Click Me' button and print its text message to the console
+        actions.contextClick(driver.findElement(By.id("rightClickBtn"))).perform();  // right-click on the button
+        System.out.println(driver.findElement(By.id("rightClickMessage")).getText());      // print the message
 
         wait(1);
         tearDown();
