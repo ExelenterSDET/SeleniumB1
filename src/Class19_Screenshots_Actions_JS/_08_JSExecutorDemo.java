@@ -27,6 +27,8 @@ public class _08_JSExecutorDemo extends BaseClass {
         driver.findElement(By.xpath("(//img[@class='b-img'])[9]")).click();             // We are clicking on the 'Video Games & Consoles' category
 
 
+
+
         tearDown();
     }
 }
