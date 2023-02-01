@@ -14,6 +14,7 @@ public class _12_InfiniteScroll_Refactor extends BaseClass {
         wait(2);
 
        scrollToParagraph(13);
+//       scrollToParagraph2(20);
 
         tearDown();
     }
@@ -32,5 +33,22 @@ public class _12_InfiniteScroll_Refactor extends BaseClass {
         List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
         return paragraphs.size();
     }
+
+    // This second method is not universal, cannot be used everywhere, because depends on the
+    // <p> element, this element locator could be different on each different page/website.
+    public static void scrollToParagraph2(int index) {
+        List<WebElement> paragraphs = driver.findElements(By.className("jscroll-added"));
+        var jsExecutor = (JavascriptExecutor) driver;
+        String script = "window.scrollTo(0, document.body.scrollHeight)";
+
+        while (paragraphs.size() < index) {
+            jsExecutor.executeScript(script);
+            paragraphs = driver.findElements(By.className("jscroll-added"));
+        }
+        System.out.println("Total paragraphs: " + paragraphs.size());
+
+    }
+
+
 
 }
