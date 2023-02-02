@@ -35,7 +35,7 @@ public class _13_HW_ActionClass_Tohir extends BaseClass {
 
         //From the sub-menu select 'Java-sdet' and click on it
 
-        driver.findElement(By.xpath("//li[@id='menu-item-9053']/a")).click();
+        driver.findElement(By.xpath("(//span[text()='Java-sdet'])[1]")).click();
         wait(1);
 
         String textFromSDET = driver.findElement(By.xpath("//div[@class='ct-title1 style4']/h3")).getText();

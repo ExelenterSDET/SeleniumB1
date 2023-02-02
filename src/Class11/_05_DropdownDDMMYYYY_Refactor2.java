@@ -14,7 +14,7 @@ public class _05_DropdownDDMMYYYY_Refactor2 {
 
     public static void main(String[] args) {
         setUp("https://vitalets.github.io/combodate/");
-        findDate(8,"30", "2014");   // <--- THIS IS CALLED CLEAN CODING. All distractions are hidden elsewhere.
+        findDate(8,"30", "2014");       // <--- THIS IS CALLED CLEAN CODING. All distractions are hidden elsewhere.
         tearDown();
     }
 
