@@ -2,6 +2,7 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
@@ -20,6 +21,10 @@ public class BaseClass extends CommonMethods {
             case "firefox" -> {
                 System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
                 driver = new FirefoxDriver();
+            }
+            case "edge" -> {
+                System.setProperty("webdriver.edge.driver", Constants.EDGE_DRIVER_PATH);
+                driver = new EdgeDriver();
             }
             default -> throw new RuntimeException("Browser is not supported");
         }

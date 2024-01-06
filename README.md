@@ -4,9 +4,11 @@
 
 ## Contents
 
-| [Chapter 00](#Introduction) | [Chapter 01](#Chapter_01) | [Chapter 02](#Chapter_02) | [Chapter 03](#Chapter_03) | [Chapter 04](#Chapter_04) | [Chapter 05](#Chapter_05) | [Chapter 06](#Chapter_06) |
-|-----------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|---------------------------|
-| [Chapter 07](#Chapter_07)   | [Chapter 08](#Chapter_08) | [Chapter 09](#Chapter_09) | [Chapter 10](#Chapter_10) | [Chapter 11](#Chapter_11) | [Chapter 12](#Chapter_12) | [Chapter 13](#Chapter_13) |
+| [Chapter 00](#Introduction)   | [Chapter 01](#Chapter_01)   | [Chapter 02](#Chapter_02)   | [Chapter 03](#Chapter_03)   | [Chapter 04](#Chapter_04)   | [Chapter 05](#Chapter_05)   | [Chapter 06](#Chapter_06)   |
+|-------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
+| [Chapter 07](#Chapter_07)     | [Chapter 08](#Chapter_08)   | [Chapter 09](#Chapter_09)   | [Chapter 10](#Chapter_10)   | [Chapter 11](#Chapter_11)   | [Chapter 12](#Chapter_12)   | [Chapter 13](#Chapter_13)   |
+| ----------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
+| [Chapter 14](#Chapter_14)     | [Chapter 15](#Chapter_15)   | [Chapter 16](#Chapter_16)   | [Chapter 17](#Chapter_17)   | [Chapter 18](#Chapter_18)   | [Chapter 19](#Chapter_19)   | [Chapter 20](#Chapter_20)   |
 
 ## Introduction
 
@@ -139,6 +141,15 @@ WHAT YOU WILL LEARN (What is covered in this section):
 <sup>(back to [table of contents](#Contents))</sup>
 
 ## Chapter_13
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Framework Structure
+- Page Object Model (POM) Design.
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Chapter_14
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
