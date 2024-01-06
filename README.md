@@ -1,14 +1,13 @@
-# Selenium Curriculum 2022 (v.1.0)
+# Selenium Curriculum 2024 (v.2.0)
 
-> Prepared by Said Gaforov for Exelenter students
+> Prepared by Said Gaforov for students
 
 ## Contents
 
-| [Chapter 00](#Introduction)   | [Chapter 01](#Chapter_01)   | [Chapter 02](#Chapter_02)   | [Chapter 03](#Chapter_03)   | [Chapter 04](#Chapter_04)   | [Chapter 05](#Chapter_05)   | [Chapter 06](#Chapter_06)   |
-|-------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
-| [Chapter 07](#Chapter_07)     | [Chapter 08](#Chapter_08)   | [Chapter 09](#Chapter_09)   | [Chapter 10](#Chapter_10)   | [Chapter 11](#Chapter_11)   | [Chapter 12](#Chapter_12)   | [Chapter 13](#Chapter_13)   |
-| ----------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
-| [Chapter 14](#Chapter_14)     | [Chapter 15](#Chapter_15)   | [Chapter 16](#Chapter_16)   | [Chapter 17](#Chapter_17)   | [Chapter 18](#Chapter_18)   | [Chapter 19](#Chapter_19)   | [Chapter 20](#Chapter_20)   |
+| [Lesson 00](#Introduction) | [Lesson 01](#Lesson_01) | [Lesson 02](#Lesson_02) | [Lesson 03](#Lesson_03) | [Lesson 04](#Lesson_04) | [Lesson 05](#Lesson_05) | [Lesson 06](#Lesson_06) |
+|----------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| [Lesson 07](#Lesson_07)    | [Lesson 08](#Lesson_08) | [Lesson 09](#Lesson_09) | [Lesson 10](#Lesson_10) | [Lesson 11](#Lesson_11) | [Lesson 12](#Lesson_12) | [Lesson 13](#Lesson_13) |
+| [Lesson 14](#Lesson_14)    | [Lesson_15](#Lesson_15) | [Lesson 16](#Lesson_16) | [Lesson 17](#Lesson_17) | [Lesson 18](#Lesson_18) | [Lesson 19](#Lesson_19) | [Lesson 20](#Lesson_20) |
 
 ## Introduction
 
@@ -16,13 +15,13 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 - What is Automation Testing?
 - Automation vs Manual
-    - Why do we automate?
-    - When do we automate?
+  - Why do we automate?
+  - When do we automate?
 - Why manual testing?
-    - When we do manual?
-    - Why manual is important?
+  - When we do manual?
+  - Why manual testing is important?
 
-## Chapter_01
+## Lesson_01
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
@@ -34,127 +33,185 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_02
+## Lesson_02
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Basic WebDriver Commands
-- What is a web element?
-- Locators in Selenium
+- Navigation Commands
+- How to open new window using Selenium
+- How to open new tab using Selenium
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_03
+## Lesson_03
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Locators in Selenium Cont'd.
+- Introduction to Web Elements and how to interact with them
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_04
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Introduction to Locators
 - xPath Locators
-
-<sup>(back to [table of contents](#Contents))</sup>
-
-## Chapter_04
-
-WHAT YOU WILL LEARN (What is covered in this section):
-
-- xPath Locators Cont'd
 - CSS Selectors
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_05
+## Lesson_05
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
 - More Selenium Methods/Commands
-- Boolean Methods in Selenium
-- Radio Button & Checkboxes
+- How to wait/pause for web content to load using Java command
+  - Thread.sleep()
+  - (Selenium own wait commands are covered later)
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_06
+## Lesson_06
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- How to Read from and Write to Properties file
-- Properties Class, FileInputStream
-- Iterators
+- Web element attributes and how to retrieve them
+- Radio Buttons and Checkboxes
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_07
+## Lesson_07
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- How to Read from and Write to Excel Files
-- Apache POI
+- Finding and counting links from the web browsers
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_08
+## Lesson_08
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Dropdowns
-- Select Class
+- Iterations
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_09
+## Lesson_09
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Properties file
+- How to use properties file to store data and retrieve from it
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_10
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- How to Read from Excel Files
+- How to Write to Excel Files
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_11
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Drop-down selections and how to handle them in Selenium
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_12
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
 - Alerts
 - Modals
-- Basic Authentication Alerts
+- Authentication Alerts
+- Upload Files
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_10
+## Lesson_13
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Frames
-- Window Handles
-- Waits
+- Frames and iFrames
+- How to handle frames and nested frames
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_11
+## Lesson_14
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Web Tables
-- Calendars
+- How to interact with new browser windows and tabs
+- How to open a new tab or window and switch to it
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_12
+## Lesson_15
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- How to wait in Selenium
+- Types of waits
+  - Implicit wait
+  - Explicit wait
+  - Fluent wait
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_16
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Develop reusable methods/functions
+- Recap learned selenium commands using new functions
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+
+## Lesson_17
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Web Tables in Selenium
+- Dynamic Tables
+- Tables without table tag and how to handle them
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+
+## Lesson_18
+
+WHAT YOU WILL LEARN (What is covered in this section):
+
+- Handling of Calendars in Selenium
+- Simple Calendars vs Complicated Calendars
+- Selecting specific dates from real airline websites
+
+<sup>(back to [table of contents](#Contents))</sup>
+
+## Lesson_19
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
 - Screenshots
-- Action Class
-- Key Entries
-- JS Executor
+- How to Hover over an element using your mouse
+- Using keyboard keys in Selenium
 
 <sup>(back to [table of contents](#Contents))</sup>
 
-## Chapter_13
+## Lesson_20
 
 WHAT YOU WILL LEARN (What is covered in this section):
 
-- Framework Structure
-- Page Object Model (POM) Design.
-
-<sup>(back to [table of contents](#Contents))</sup>
-
-## Chapter_14
-
-WHAT YOU WILL LEARN (What is covered in this section):
-
-- Framework Structure
-- Page Object Model (POM) Design.
+- Test Automation Framework Structure
+- Page Object Model Design
+- Utilities used for testing (refactor to meet POM)
 
 <sup>(back to [table of contents](#Contents))</sup>
 
@@ -162,19 +219,9 @@ WHAT YOU WILL LEARN (What is covered in this section):
 
 #
 
-[//]: # (# Services)
-Some Sample examples below how to use MD to insert links or highlight words.
 
-- [Hack My Resume](https://github.com/hacksalot/HackMyResume) - Edit a single standard `JSON`file and generate CVs in
-  HTML, Markdown, LaTeX, MS Word, PDF, plain text, JSON, XML, YAML with `JavaScript` libraries.
-- [Resume generator](https://github.com/mwhite/resume) - Edit a markdown file and then the unix `make` tool employs
-  a `python` pre-processor and pandoc, in order to create PDF and HTML output.
-- [Alta CV](https://github.com/liantze/AltaCV) - Alta CV provides two-columns, infographics, and icons and it is based
-  on the [original Marissa Meyer resume](https://www.businessinsider.com/a-sample-resume-for-marissa-mayer-2015-7/).
-- [Fancy CV](https://github.com/depressiveRobot/friggeri-cv-a4) - Fancy CV by Adrien Friggeri is a modern layout and has
-  inspired many forks.
 
 ## License
 
-Copyright © 2022 &#9787; [Said Gaforov](https://github.com/gaforov) &#9758; All Rights Reserved.<br> Copying, cloning,
+Copyright © 2024 &#9787; [Said Gaforov](https://github.com/gaforov) &#9758; All Rights Reserved.<br> Copying, cloning,
 storing or re-use of any content is expressly prohibited without prior written permission of the author.
